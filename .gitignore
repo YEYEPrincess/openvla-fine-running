@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+conda-meta/
+
+# Large model/data files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.tfrecord*
+*.h5
+*.hdf5
+
+# Checkpoints and datasets
+models/
+checkpoints/
+runs/
+wandb/
+modified_libero_rlds/
+libero_datasets/
+hf_cache/
+
+# Rollout videos: avoid committing all videos by default
+rollouts/
+*.mp4
+
+# Logs
+*.log
+experiments/logs/
+
+# OS files
+.DS_Store
+Thumbs.db

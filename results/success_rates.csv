@@ -1,0 +1,10 @@
+experiment,task_suite,trials_per_task,total_episodes,successes,success_rate,notes
+released_goal_sanity,LIBERO-Goal,1,10,10,100.0,Released OpenVLA-OFT Goal checkpoint sanity check
+released_goal_formal,LIBERO-Goal,50,500,489,97.8,Released OpenVLA-OFT Goal checkpoint formal evaluation
+released_spatial_formal,LIBERO-Spatial,50,500,489,97.8,Released OpenVLA-OFT Spatial checkpoint formal evaluation
+released_object_formal,LIBERO-Object,50,500,485,97.0,Released OpenVLA-OFT Object checkpoint formal evaluation
+base_lora_1k,LIBERO-Goal,1,10,0,0.0,OpenVLA-7B base model LoRA fine-tuning for 1k steps
+base_lora_5k,LIBERO-Goal,1,10,0,0.0,OpenVLA-7B base model LoRA fine-tuning for 5k steps
+continued_lora_1k_lr5e-5_aug,LIBERO-Goal,1,10,4,40.0,Continued LoRA fine-tuning from released Goal checkpoint
+continued_lora_1k_lr5e-5_aug,LIBERO-Goal,5,50,16,32.0,Continued LoRA fine-tuning from released Goal checkpoint
+continued_lora_500_lr1e-5_noaug,LIBERO-Goal,1,10,0,0.0,Conservative continued LoRA fine-tuning
