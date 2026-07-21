@@ -33,7 +33,8 @@ hf_cache/
 # Rollout videos: avoid committing all videos by default
 rollouts/
 *.mp4
-
+!videos_selected/
+!videos_selected/*.mp4
 # Logs
 *.log
 experiments/logs/
